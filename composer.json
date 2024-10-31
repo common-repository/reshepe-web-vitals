@@ -1,0 +1,33 @@
+{
+    "authors":     [
+        {
+            "name":  "reshepe",
+            "email": "hello@reshepe.dev"
+        }
+    ],
+    "autoload":    {
+        "psr-4": {
+            "reshepe\\webvitals\\": "src/"
+        }
+    },
+    "config":      {
+        "platform":      {
+            "php": "8.2"
+        },
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "php-http/discovery":  true
+        }
+    },
+    "name":        "reshepe-web-vitals/wordpress",
+    "description": "reshepe-web-vitals/wordpress",
+    "version":     "0.0.35",
+    "require":     {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "laylatichy/nano-modules-testing": "5.0.28",
+        "szepeviktor/phpstan-wordpress":   "1.3.5"
+    },
+    "type":        "library"
+}
